@@ -1,0 +1,23 @@
+{
+    "name": "rostami/shopping-cart",
+    "description": "this package is created for handling shopping cart of a website that has been created by laravel.",
+    "authors": [
+        {
+            "name": "Reza RotamiNikoo",
+            "email": "RezaRostamiNikoo@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rostami\\ShoppingCart\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rostami\\ShoppingCart\\ShoppingCartServiceProvider"
+            ]
+        }
+    }
+}
